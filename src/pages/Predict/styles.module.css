@@ -1,0 +1,47 @@
+.container_predict{
+    /* padding-bottom: 30px; */
+}
+
+.header_predict {
+    color: white;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px;
+    margin-left: auto; 
+}
+
+
+.input_container{
+    gap: 10px;
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.predict_button {
+    font-size: 50px;
+    width: 300px;
+    height: 75px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    grid-column: span 3;
+    border-radius: 10px;
+    margin: auto; 
+}
+
+.input{
+    padding: 10px;
+}
+
+.form_predict{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+}
+
